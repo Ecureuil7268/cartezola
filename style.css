@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: serif;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 300px;
+  bottom: 0;
+}
+
+#sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100%;
+  padding: 10px;
+  background: #f7f7f7;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+h2, h3 {
+  margin-top: 0.5em;
+}
